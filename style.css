@@ -1,0 +1,32 @@
+/* *{
+    outline:red 1px solid;
+} */
+body{
+    background-image: url(http://theartmad.com/wp-content/uploads/2015/08/Cool-Music-Backgrounds-For-Twitter-1.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h3, h4, p{
+    color:white
+}
+ul{
+    padding-left: 0px
+}
+.container{
+    margin-top:5%;
+}
+.flex{
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    margin-top:4%
+}
+.img{
+   margin-top: 20px;
+}
+.navbar{
+    background-color: black;
+}
