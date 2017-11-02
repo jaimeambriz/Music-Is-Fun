@@ -23,7 +23,7 @@ function ItunesService(){
                     };
                 })
         //changes button back to GET MUSIC once songs are loaded
-        $('#get-music-button').text('GET MUSIC');
+        $('#get-music-button').text('GET TRAK§');
         return songList;
       })
     }
