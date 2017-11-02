@@ -7,7 +7,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 h3, h4, p{
     color:white
@@ -15,18 +14,31 @@ h3, h4, p{
 ul{
     padding-left: 0px
 }
-.container{
-    margin-top:5%;
+.container-fluid{
+    margin-top:34px;
 }
 .flex{
     display:flex;
     justify-content: flex-end;
     padding-right: 5%;
-    margin-top:4%
+    margin-top:3.5%
 }
 .img{
    margin-top: 20px;
 }
-.navbar{
-    background-color: black;
+
+div.scroll-container{
+    height:100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+div.scroll-container .scroll {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -17px;
+    overflow-y: scroll;
 }
