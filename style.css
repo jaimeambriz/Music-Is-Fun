@@ -22,13 +22,13 @@ ul{
     justify-content: flex-end;
     padding-right: 5%;
     margin-top:3.5%;
-    animation: 1.s cubic-bezier(0, 0.03, 0.15, 1.6) 0s 1 slideInFromTop;
+    animation: 1.1s cubic-bezier(0, 0.03, 0.15, 1.6) 0s 1 slideInFromTop;
 }
 .img{
     margin-top: 20px;
 }
 .info{
-    animation: 1.s cubic-bezier(0, 0.03, 0.15, 1.6) 0s 1 slideInFromBottom;
+    animation: 1.1s cubic-bezier(0, 0.03, 0.15, 1.6) 0s 1 slideInFromBottom;
 
 }
 div.scroll-container{
