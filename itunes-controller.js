@@ -17,7 +17,7 @@ function ItunesController() {
         <div class="col-sm-5 flex">
          <div class="img">
              <img src="${song.albumArt}"
-                 alt="" class="img-responsive">
+                 alt="">
          </div>
        </div>
        <div class="col-sm-7 info">
