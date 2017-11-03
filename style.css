@@ -14,6 +14,16 @@ h3, h4, p{
 ul{
     padding-left: 0px
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.traks{
+    margin-top: 6%; 
+    font-size: 80px;
+    color: gray;
+    text-align: center;
+}
 .container-fluid{
     margin-top:34px;
 }
