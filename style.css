@@ -70,10 +70,10 @@ div.scroll-container .scroll {
     }
 
 @keyframes slideInFromTop {
-        0% {
-           transform: translateY(-400%);
-         }
-         100% {
-           transform: translateY(0);
-        }
+     0% {
+       transform: translateY(-400%);
+      }
+      100% {
+       transform: translateY(0);
+      }
        }
