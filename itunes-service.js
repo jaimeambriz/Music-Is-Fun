@@ -11,7 +11,7 @@ function ItunesService(){
       $('#get-music-button').text('Loading....');
       
       //modifies the objects to reduce the excess data
-      return $.getJSON(apiUrl).then(function(response){
+      return $.getJSON(url2).then(function(response){
         var songList = response.results.map(function (song) {
                   return {
                       title: song.trackName,
